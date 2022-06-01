@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cast Discovery Issue</string>
+
+    <string name="receiver_id" translatable="false">4F8B3483</string>
+</resources>
