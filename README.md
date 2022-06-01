@@ -1,7 +1,7 @@
 # CAST DISCOVERY ISSUES
 
 
-In order to reproduce the issue, first set up your receiver Id on `strings.xml`.
+In order to reproduce the issue, first set up your receiver Id on `strings.xml`. This receiver app should be prepared to just intake and play plain URLs.
 
 This small app reproduces both the lack of discovery and lack of reconnection when the CastContext initialization is delayed.
 
