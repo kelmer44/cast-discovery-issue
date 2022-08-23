@@ -7,7 +7,7 @@ This small app reproduces both the lack of discovery and lack of reconnection wh
 
 The Cast SDK only starts the ReconnectionService after content has been played, so in order to repro, do the following:
 
-1. Start the app, the SDK will be initialized after 2 seconds.
+1. Start the app, the SDK is set to be initialized after 2 seconds.
 2. Once the buttons are enabled, hit trigger discovery. This will make the MediaRouteButton become enabled.
 3. Connect to a Chromecast device supported by the receiver Id (you might have to allow list your device)
 4. Click on Play content to initiate playback of a sample video
